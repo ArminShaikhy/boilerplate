@@ -1,3 +1,9 @@
-* {
-  margin: 0;
-}
+@import "utilities";
+@import "footer";
+@import "header";
+@import "mixins";
+@import "resets";
+@import "utilities";
+@import "variables";
+
+@import "./pages/index";

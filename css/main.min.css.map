@@ -1,8 +1,16 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,AAAC,CACA,MAAM,CAAE,CAAC,CACV",
+    "mappings": "ACAA,AAAA,CAAC,AAAC,CACA,SAAS,CAAE,OAAO,CACnB,AAFD,AAAA,CAAC,AAAC,CACA,SAAS,CAAE,OAAO,CACnB",
     "sources": [
-        "../scss/main.scss"
+        "../scss/main.scss",
+        "../scss/_utilities.scss",
+        "../scss/_footer.scss",
+        "../scss/_header.scss",
+        "../scss/_mixins.scss",
+        "../scss/_resets.scss",
+        "../scss/_utilities.scss",
+        "../scss/_variables.scss",
+        "../scss/pages/_index.scss"
     ],
     "names": [],
     "file": "main.min.css"
