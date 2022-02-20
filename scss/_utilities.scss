@@ -76,8 +76,8 @@
 .ff-serif {
   font-family: $ff-serif;
 }
-.ff-sans-cond {
-  font-family: $ff-sans-cond;
+.ff-sans-title {
+  font-family: $ff-sans-title;
 }
 .ff-sans-normal {
   font-family: $ff-sans-normal;
@@ -130,7 +130,7 @@
 }
 
 .numbered-title {
-  font-family: $ff-sans-cond;
+  font-family: $ff-sans-title;
   font-size: $fs-500;
   text-transform: uppercase;
   letter-spacing: 4.72px;

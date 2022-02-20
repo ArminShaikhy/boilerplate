@@ -93,10 +93,10 @@
 
 /* typography */
 .ff-serif {
-  font-family: "Bellefair", serif;
+  font-family: sanserif, serif;
 }
 
-.ff-sans-cond {
+.ff-sans-title {
   font-family: "Barlow Condensed", sans-serif;
 }
 
