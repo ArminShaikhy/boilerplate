@@ -1,9 +1,179 @@
-a {
-  font-size: 1.25rem;
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+/* colors */
+/* font-sizes */
+/* font-families */
+@media (min-width: 45em) {
+  /* font-sizes */
 }
 
 /* ------------------- */
-/* Reset               */
+/* Utility classes  */
+/* ------------------- */
+/* general */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.d-block {
+  display: block;
+}
+
+.container {
+  padding-inline: 2em;
+  margin-inline: auto;
+  max-width: 80rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  /* added line */
+  border: 0;
+}
+
+.skip-to-content {
+  position: absolute;
+  z-index: 9999;
+  background-color: rgba(255, 0, 0, 0.3);
+  color: rgba(255, 0, 0, 0.3);
+  padding: 0.5em 1em;
+  margin-inline: auto;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+.skip-to-content:focus {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+/* colors */
+.bg-dark {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.bg-accent {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.bg-white {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.text-dark {
+  color: clr-dark;
+}
+
+.text-accent {
+  color: rgba(255, 0, 0, 0.3);
+}
+
+.text-white {
+  color: rgba(255, 0, 0, 0.3);
+}
+
+/* typography */
+.ff-serif {
+  font-family: "Bellefair", serif;
+}
+
+.ff-sans-cond {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.ff-sans-normal {
+  font-family: "Barlow", sans-serif;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 4.75px;
+}
+
+.letter-spacing-2 {
+  letter-spacing: 2.7px;
+}
+
+.letter-spacing-3 {
+  letter-spacing: 2.35px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.fs-900 {
+  font-size: 5rem;
+}
+
+.fs-800 {
+  font-size: 3.5rem;
+}
+
+.fs-700 {
+  font-size: 1.5rem;
+}
+
+.fs-600 {
+  font-size: fs-600;
+}
+
+.fs-500 {
+  font-size: fs-500;
+}
+
+.fs-400 {
+  font-size: fs-400;
+}
+
+.fs-300 {
+  font-size: fs-300;
+}
+
+.fs-200 {
+  font-size: 0.875rem;
+}
+
+.fs-900,
+.fs-800,
+.fs-700,
+.fs-600 {
+  line-height: 1.1;
+}
+
+.numbered-title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 4.72px;
+}
+
+.numbered-title span {
+  margin-right: 0.5em;
+  font-weight: 700;
+  color: rgba(255, 0, 0, 0.3);
+}
+
+/* ------------------- */
+/* Reset                 */
 /* ------------------- */
 /* Box sizing */
 *,
@@ -79,7 +249,13 @@ select {
   }
 }
 
-a {
-  font-size: 1.25rem;
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+/* colors */
+/* font-sizes */
+/* font-families */
+@media (min-width: 45em) {
+  /* font-sizes */
 }
 /*# sourceMappingURL=main.css.map */
